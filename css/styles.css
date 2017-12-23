@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    font-size: 2.1em;
+}
+
+main p {
+    padding: 10px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 25px;
+    background: lightgrey;
+    outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: blue;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: blue;
+    cursor: pointer;
+}
+
+.box {
+    height: 360px;
+    width: 50%;
+    background: cyan;
+    color: maroon;
+    text-align: center;
+    font-size: 24px;
+    font-family: monospace;
+    margin: 0 auto;
+}
+
+.box p {
+    padding-top: 150px;
+}
+
+#width-percentages,
+#width-pixels {
+    font-weight: bold;
+}
