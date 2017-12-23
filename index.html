@@ -28,6 +28,13 @@
 
         <script>
             // Your code goes here
+            $("#width-pixels").html($(".box").width());
+            $("#width-percentages").html($(".slider").val());
+            $("#myRange").change(function() {
+                $(".box").width(this.value + "%");
+                $("#width-pixels").html($(".box").width());
+                $("#width-percentages").html(this.value);
+            });
         </script>
     </body>
 </html>
